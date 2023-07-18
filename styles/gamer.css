@@ -11,14 +11,38 @@
 .primary-color{
     color: #ff42a5;
 }
+ .primary-btn{
+    padding: 21px 40px;
+    background-color: #ff42a5;
+    border: none;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+
+ }
+ .secondary-btn{
+        padding: 21px 40px;
+        background-color: #4EC5F7;
+        border: none;
+        border-radius: 48px;
+        color: #FFF;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    
+     }
  
+
 
  /* 
  shared style end here
 */
 
 section{
-    width: 1350px;
+    width: 1250px;
     margin: 0px auto;
     
 }
@@ -27,7 +51,7 @@ header{
 background-color: #fff;
 padding: 30px 0px;
 border-bottom: 1px solid transparent;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.5);
+box-shadow: 0px -17px 28px 0px rgba(0, 0, 0, 0.5);
 }
 
 nav{
@@ -80,3 +104,125 @@ font-weight: 700;
     font-size: 1.7rem;
     margin-left: 10px;
 }
+
+/*
+ header section style end here 
+ */
+
+ /*
+  main section style start here 
+ */
+
+ /* 
+ banner section styel start here 
+  */
+  .banner{
+      background-image: url('../images/Group\ 14.png');
+      background-repeat: no-repeat;
+      background-size: 50%;
+  }
+  .banner-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .banner-info{
+      width: 500px;
+  }
+  .bnr-sub-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .banner-title{
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bnr-list-ui{
+      list-style: none;
+      margin: 20px 0px 35px 0px;
+  }
+  .bnr-list{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin: 15px 0px;
+  }
+  .banner-img{
+      width: 50%;
+  }
+  .banner-btn{
+      display: flex;
+      align-items: center;
+      gap: 0px 24px;
+  }
+
+  /* 
+  .
+  .
+  Resposive web esign
+  .
+  .
+  */
+@media screen and (max-width:576px) {
+    section{
+        width: auto;
+        padding: 0px 30px;
+    }
+    .primary-btn{
+        padding: 20px 38px;
+        font-size: 1.1rem;
+    }
+    .secondary-btn{
+        padding: 20px 38px;
+        font-size: 1.1rem;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .banner{
+    background-size: 101%;
+    background-position: bottom;
+    padding: 0px 20px;
+}
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        row-gap: 50px;
+        margin: 50px 0px;
+    }
+    .banner-info{
+        width: auto;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 4rem;
+    }
+    .bnr-sub-title{
+        font-size: 2rem;
+    }
+    .bnr-list{
+        font-size: 15px;
+    }
+    .banner-btn{
+        justify-content: center;
+    }
+
+    
+
+    
+    /* mobile device end here */
+}
+
