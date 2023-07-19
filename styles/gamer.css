@@ -257,7 +257,25 @@ Video section strat here
     background-size: cover;
     margin-bottom: 19px;
     border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.play{
+    border: none;
+    padding: 20px 27px;
+    padding-left: 28px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+    background-color: #ff42a5;
+    font-size: 30px;
+    display: none;
+}
+
+.card :hover .play{
+    display: block;
 }
 
 .card-2 {
@@ -668,6 +686,31 @@ for medium or tablate divice
     .secondary-btn {
         padding: 20px 38px;
         font-size: 14px;
+    }
+
+    .video-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .gamer-container{
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+    .gamer-info{
+        text-align: center;
+        padding: 0px 30px;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-info{
+        text-align: left;
+    }
+    .ql{
+        
     }
 
 
