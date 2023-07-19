@@ -358,6 +358,65 @@ font-weight: 600;
     border: 2px solid #ff42a5;
     color: #ff42a5;
 }
+/* main section style done  */
+/* 
+footer section style start
+*/
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #0B0223;
+    color: #fff;
+    text-align: center;
+    margin: 0px auto;
+    padding: 80px 50px;
+}
+
+.ftr-logo{
+    margin: 20px 41%;
+    
+}
+.ql{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 50px;
+    margin: 0px 24%;
+}
+.ql-item{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.social{
+    margin: 50px 0px;
+}
+
+.fa-brands{
+    color: #fff;
+    margin: 10px 10px ;
+    background-color: rgba(185, 185, 198, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.cr{
+    margin: 0px 25%;  
+}
+
+.ci{
+color: rgba(185, 185, 198, 0.5);
+
+}
+
+.ct{
+    margin-top: 30px;
+}
+
 
 
 
@@ -518,6 +577,27 @@ font-weight: 600;
     }
     .icon-text{
         font-size: 12px;
+    }
+
+    .ftr-logo{
+        margin: 10px 13%;
+        
+    }
+    .ql{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+        margin-top: 50px;
+        margin: 0px 0%;
+    }
+    .cr{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ct{
+        margin-bottom: 30px;
+    }
+    footer{
+        height: 550px;
     }
 
 
