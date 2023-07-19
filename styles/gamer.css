@@ -175,13 +175,16 @@ font-weight: 700;
         width: auto;
         padding: 0px 30px;
     }
+    header{
+        box-shadow: none;
+    }
     .primary-btn{
         padding: 20px 38px;
-        font-size: 1.1rem;
+        font-size: 14px;
     }
     .secondary-btn{
         padding: 20px 38px;
-        font-size: 1.1rem;
+        font-size: 14px;
     }
 
     nav{
@@ -190,11 +193,14 @@ font-weight: 700;
     .menu {
         flex-direction: column;
     }
+    .menu-items{
+        margin-top: 20px;
+    }
     .banner{
     background-size: 101%;
     background-position: bottom;
     padding: 0px 20px;
-}
+
     }
     .banner-container{
         flex-direction: column-reverse;
@@ -226,3 +232,58 @@ font-weight: 700;
     /* mobile device end here */
 }
 
+/* 
+.
+.
+for medium or tablate divice
+.
+.
+*/
+@media screen and (min-width:577px) and (max-width:970px) {
+    section{
+        width: auto;
+        padding: 0px 30px;
+    }
+    nav{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    header{
+        box-shadow: none;
+    }
+    .banner-container{
+        margin: 50px;
+    }
+    .menu{
+        margin-top: 30px;
+    }
+
+    .banner-info{
+        width: auto;
+    }
+    .banner-img{
+        width: 50%;
+    }
+    .banner-title{
+        font-size: 4rem;
+    }
+    .bnr-sub-title{
+        font-size: 2rem;
+    }
+    .bnr-list{
+        font-size: 15px;
+    }
+    .banner-btn{
+        justify-content: center;
+    }
+    .primary-btn{
+        padding: 20px 38px;
+        font-size: 14px;
+    }
+    .secondary-btn{
+        padding: 20px 38px;
+        font-size: 14px;
+    }
+
+    
+}
